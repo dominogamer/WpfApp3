@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Sprawdz Cenę" HorizontalAlignment="Left" Margin="78,241,0,0" VerticalAlignment="Top" Width="151" BorderBrush="#FF195BB3" Background="#FFDDDDDD"/>
+        <Button Content="Zatwierdz" HorizontalAlignment="Left" Margin="87,395,0,0" VerticalAlignment="Top" Width="596" FontWeight="Bold" BorderThickness="2,1,1,1"/>
+        <RadioButton Content="Pocztówka" HorizontalAlignment="Left" Margin="96,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.939,0.394"/>
+        <RadioButton Content="List" HorizontalAlignment="Left" Margin="96,142,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.308,-1.105"/>
+        <RadioButton Content="Paczka" HorizontalAlignment="Left" Margin="96,173,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.702,1.149"/>
+        <TextBox HorizontalAlignment="Left" Margin="535,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="546,227,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="606,277,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Label Content="Cena:1,5zł" HorizontalAlignment="Left" Margin="170,277,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Width="101"/>
+        <GroupBox Header="Rodzaje Przesyłki" Margin="78,77,571,198" RenderTransformOrigin="1.298,0.191"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="287,308,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.505,0.435"/>
+        <Image Margin="78,266,656,52" Source="/Image1.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
