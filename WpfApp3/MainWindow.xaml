@@ -17,8 +17,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="606,277,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
         <Label Content="Cena:1,5zł" HorizontalAlignment="Left" Margin="170,277,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Width="101"/>
         <GroupBox Header="Rodzaje Przesyłki" Margin="78,77,571,198" RenderTransformOrigin="1.298,0.191"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="287,308,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.505,0.435"/>
-        <Image Margin="78,266,656,52" Source="/Image1.png" Stretch="Fill"/>
+       
 
     </Grid>
 </Window>
